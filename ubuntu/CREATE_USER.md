@@ -49,6 +49,8 @@ to `/vagrant/ubuntu/user/ken.crt`
 kubectl config set-credentials ken --client-key=/vagrant/ubuntu/user/ken.key --client-certificate=/vagrant/ubuntu/user/ken.crt --embed-certs=true
 ```
 
+Replace the contents of `client-certificate-data` in ~/.kube/config with the string from Step 7
+
 ## Step 8 Create Context
 
 ```
