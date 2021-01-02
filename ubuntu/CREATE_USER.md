@@ -11,7 +11,7 @@ openssl genrsa -out ken.key 2048
 ## Step 2 Create CSR
 
 ```
-openssl req -new -key john.key -out john.csr -subj "/CN=ken"
+openssl req -new -key ken.key -out ken.csr -subj "/CN=ken"
 ```
 
 ## Step 3 Create Kubernetes certificate
